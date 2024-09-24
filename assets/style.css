@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.requirement
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+}
+.square
+{
+    border: 0px solid;
+    width: 25px;
+    height: 25px;
+    padding: 50px;
+    background-color: rgb(163, 102, 102);
+}
+.circle
+{
+    border: 0px solid;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 50px;
+    background-color: rgb(70, 130, 145);
+}
+.triangle
+{
+    width: 0;
+	height: 0;
+    border: 0px solid;
+    border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 80px solid rgb(118, 58, 126);
+}
+.area
+{
+    margin: 0 12%;
+}
